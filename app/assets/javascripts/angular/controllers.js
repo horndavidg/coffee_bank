@@ -290,7 +290,7 @@ var goalsRef = new Firebase("https://stash-it.firebaseio.com/goals");
 $scope.goals = $firebaseArray(goalsRef);
 $scope.goalForm = false;
 
-$scope.newGoal = {name:"", message:"", goal:"", edit: false}
+$scope.newGoal = {name:"", goal:"", edit: false}
 
 
 $scope.addGoal = function(user){
@@ -300,7 +300,7 @@ if ($scope.goal_form.$valid) {
 $scope.newGoal.name = user.name
 
   $scope.goals.$add($scope.newGoal).then(function(data) {      
-      $scope.newGoal = {name:"", message:"", goal:"", edit: false};
+      $scope.newGoal = {name:"", goal:"", edit: false};
       $scope.goalForm = false;
       $scope.goal_form.submitted = false;
       $scope.goal_form.$setUntouched();

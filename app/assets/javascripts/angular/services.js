@@ -1,4 +1,3 @@
-
  coffeeBankApp.service('User', ['$resource', function($resource) {
   return $resource(
     "/users/:id.json",

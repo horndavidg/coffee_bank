@@ -1,4 +1,3 @@
-
 coffeeBankApp.controller("MainController", ["$scope", "$http", "User", "$rootScope", "Login", "$location", function (e, t, o, a) {
     var n = function () {
         o.get(function (e) {

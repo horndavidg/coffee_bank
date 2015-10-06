@@ -1,4 +1,3 @@
-
 coffeeBankApp.directive("dhItemTemplate", function () {
     return {
         restrict: "E",

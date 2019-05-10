@@ -24,3 +24,5 @@ This application is currently deployed on Heroku and you can see live here: [sta
 
 ###Live Updating Carousel
 ![screen shot 5](https://github.com/horndavidg/project_screenshots/blob/master/Screen%20Shot%202015-10-04%20at%209.43.02%20PM.png "Live Updating Carousel")
+
+*Last touched 5.9.19*
